@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ScrcpyForAndroid</string>
+    <string name="app_name">Mekki Mirror</string>
     <string name="app_title">Scrcpy For Android</string>
 
     <string name="label_server_ip">Remote Device IP address, For example: 192.168.0.73</string>
@@ -71,8 +71,8 @@
     <string name="resolution_auto_stream_remote">Streaming %1$dx%2$d (remote device limit)</string>
 
     <string-array name="options_resolution_keys">
-        <item>Auto (native)</item>
-        <item>1920x1080</item>
+        <item>Native resolution (no resizing)</item>
+        <item>2340 px long edge</item>
         <item>1600x720</item>
         <item>1280x720</item>
         <item>1200x540</item>
@@ -83,7 +83,7 @@
 
     <string-array name="options_resolution_values">
         <item>0</item>
-        <item>1920x1080</item>
+        <item>2340</item>
         <item>1600x720</item>
         <item>1280x720</item>
         <item>1200x540</item>
@@ -111,6 +111,9 @@
         <item>2 Mbps</item>
         <item>1 Mbps</item>
         <item>512 Kbps</item>
+        <item>16 Mbps</item>
+        <item>32 Mbps</item>
+        <item>64 Mbps</item>
     </string-array>
 
     <integer-array name="options_bitrate_values">
@@ -120,6 +123,9 @@
         <item>2048000</item>
         <item>1024000</item>
         <item>524288</item>
+        <item>16000000</item>
+        <item>32000000</item>
+        <item>64000000</item>
     </integer-array>
 
     <string-array name="options_codec_keys">
@@ -136,12 +142,16 @@
         <item>60 fps</item>
         <item>30 fps</item>
         <item>15 fps</item>
+        <item>90 fps</item>
+        <item>120 fps</item>
     </string-array>
 
     <integer-array name="options_fps_values">
         <item>60</item>
         <item>30</item>
         <item>15</item>
+        <item>90</item>
+        <item>120</item>
     </integer-array>
 
 </resources>

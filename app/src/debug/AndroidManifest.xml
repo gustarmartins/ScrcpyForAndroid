@@ -1,0 +1,4 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <instrumentation android:name="com.mekki.scrcpy.TransportProbe"
+        android:targetPackage="com.mekki.scrcpy" android:functionalTest="true" />
+</manifest>

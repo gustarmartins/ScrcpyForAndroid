@@ -104,6 +104,7 @@
 
                     <EditText
                         android:id="@+id/editText_server_host"
+                        android:hint="IP:port, optional fallback IP:port"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -273,6 +274,15 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 tools:visibility="visible">
+
+                <Switch
+                    android:id="@+id/switch_wake_remote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:padding="10dp"
+                    android:text="Wake remote screen while connected"
+                    android:textColor="@color/white" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
